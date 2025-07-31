@@ -33,11 +33,11 @@ function adicionarNota() {
     alert("A nota digitada é inválida, por favor, insira uma nota válida.");
     return;
   }
-  
+
   notas.push(valor);
   soma = soma + valor;
   quantidade = quantidade + 1;
-  textoLista = textoLista + "A nota " + quantidade + " foi " + valor + "\n";
+  textoLista = textoLista + "A nota " + quantidade + " foi " + valor.toFixed(2) + "\n";
   document.getElementById("lista").innerText = textoLista;
   campo.value = "";
 }
