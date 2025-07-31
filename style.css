@@ -1,0 +1,45 @@
+body {
+  background-color: #3b196b;
+  padding: 40px 12px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.caixa {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  color: #000;
+}
+
+#nota {
+  width: 65%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 14px;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+#lista {
+  width: 92%;
+  min-height: 150px;
+  margin: 16px 0;
+  padding: 12px;
+  border: 1px solid #000000;
+  color: #000;
+}
+
+#media {
+  margin-top: 12px;
+  color: #000;
+  padding: 12px;
+  display: block;
+}
